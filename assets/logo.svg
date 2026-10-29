@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" role="img" aria-label="Trudy's Atelier">
+  <!-- Mark: three nested arches, the atelier doorway -->
+  <g fill="none" stroke="#b8714c" stroke-width="2" stroke-linecap="round" transform="translate(4 6)">
+    <path d="M4 52V24a20 20 0 0 1 40 0v28"/>
+    <path d="M13 52V25a11 11 0 0 1 22 0v27"/>
+    <path d="M22 52V26a2 2 0 0 1 4 0v26"/>
+  </g>
+  <!-- Wordmark: Bodoni Moda (fallback Didot) -->
+  <text x="66" y="38" font-family="'Bodoni Moda', Didot, 'Bodoni 72', Georgia, serif" font-size="32" font-weight="500" letter-spacing="1.3" fill="#141210">Trudy’s</text>
+  <text x="68" y="56" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10" letter-spacing="6.4" fill="#6f6861">ATELIER</text>
+</svg>

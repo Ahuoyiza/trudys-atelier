@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections — Trudy's Atelier</title>
+    <meta name="description" content="Five collections of simple, elevated, flowing clothes for African women.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500..700;1,400..500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="collections">
+    <main>
+        <section class="container page-hero">
+            <span class="eyebrow">Collections</span>
+            <h1 class="display">Five stories, one quiet language</h1>
+            <p>From everyday linens to sculpted evening pieces, each collection is a small, considered edit. Choose one to explore, or browse every piece below.</p>
+        </section>
+
+        <section class="container">
+            <div class="collections-grid" id="collections"></div>
+        </section>
+
+        <section class="section container" id="shop">
+            <div class="section-head">
+                <h2 class="section-title">Every piece</h2>
+                <span class="muted" id="result-count"></span>
+            </div>
+            <div class="toolbar">
+                <div class="chips" id="filters" aria-label="Filter by collection"></div>
+                <label>
+                    <span class="sr-only">Sort by</span>
+                    <select class="select" id="sort">
+                        <option value="featured">Featured</option>
+                        <option value="low">Price: low to high</option>
+                        <option value="high">Price: high to low</option>
+                        <option value="name">Name A–Z</option>
+                    </select>
+                </label>
+            </div>
+            <div class="product-grid" id="all-products"></div>
+        </section>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/pages/collections.js"></script>
+</body>
+</html>
