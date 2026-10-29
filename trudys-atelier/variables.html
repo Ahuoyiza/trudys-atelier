@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables Set — Trudy's Atelier</title>
+    <meta name="description" content="Build your own modular set: choose a base, layer, accent and tone, and save 15%.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500..700;1,400..500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="variables">
+    <main>
+        <section class="container page-hero">
+            <span class="eyebrow">Variables Set</span>
+            <h1 class="display">One base. Endless variations.</h1>
+            <p>Our modular pieces are drafted on the same block, so every base, layer and accent works together. Build your set below and save 15% when you buy it together.</p>
+        </section>
+
+        <section class="container builder">
+            <div class="builder-preview">
+                <div class="preview-stage" id="stage"></div>
+                <div class="preview-summary">
+                    <div class="price-block" id="set-price"></div>
+                    <div class="option-row">
+                        <button type="button" class="btn btn-outline" id="shuffle">Surprise me</button>
+                        <button type="button" class="btn btn-dark" id="add-set">Add set to bag</button>
+                    </div>
+                </div>
+            </div>
+            <div id="steps"></div>
+        </section>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/pages/variables.js"></script>
+</body>
+</html>
